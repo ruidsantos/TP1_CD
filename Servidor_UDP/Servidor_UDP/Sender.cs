@@ -6,11 +6,8 @@ using System.Threading.Tasks;
 
 namespace Servidor_UDP
 {
-    class Program
+    class Sender
     {
-        static void Main(string[] args)
-        {
-
-        }
+        
     }
 }
