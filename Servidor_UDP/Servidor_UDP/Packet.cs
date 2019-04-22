@@ -8,6 +8,7 @@ namespace Servidor_UDP
 {
     class Packet
     {
+<<<<<<< HEAD
         //pacote pode ter varios tipos
         public int Ack;
         public int FIN;
@@ -32,5 +33,10 @@ namespace Servidor_UDP
             bytes.Skip(4).ToArray().CopyTo(Payload, 0);
 
         }
+=======
+        public int PacketType { get; set; }
+
+        public byte[] Payload { get; set; }
+>>>>>>> 2253e53d7a739621ddb4f0b9c1360d6097ec62c1
     }
 }
