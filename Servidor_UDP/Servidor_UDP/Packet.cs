@@ -6,13 +6,10 @@ using System.Threading.Tasks;
 
 namespace Servidor_UDP
 {
-    class Program
+    class Packet
     {
-        static void Main(string[] args)
-        {
-            UdpSender udp = new UdpSender();
-            udp.MostraFicheiros();
+        public int PacketType { get; set; }
 
-        }
+        public byte[] Payload { get; set; }
     }
 }
